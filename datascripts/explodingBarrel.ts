@@ -14,6 +14,7 @@ export const EXPLODING_BARREL_NPC = std.CreatureTemplates
     .FlagsExtra.NO_PARRY.set(1)
     .FlagsExtra.CANNOT_ENTER_COMBAT.set(1)
     .FlagsExtra.NO_MOVE_FLAGS_UPDATE.set(1)
+    .RegenHealth.set(0)
     .AIName.NullAI()
     .Models.clearAll() // Remove all displays (including bunny 4626)
     .Models.addIds(25175); // Only use barrel display 25175
